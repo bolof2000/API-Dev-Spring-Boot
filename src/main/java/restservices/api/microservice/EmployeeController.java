@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmployeeController {
 
     @RequestMapping("/employee")
-    public Employee getEmployee(){
+    public Employee getEmployee()
+    {
         Employee employee = Employee.builder()
                             .id(1)
                             .email("bolofbaba@gmail.com")
